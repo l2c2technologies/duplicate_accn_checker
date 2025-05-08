@@ -39,11 +39,13 @@ $ python3 ./accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> 
 
 The script prints status messages, warnings, and errors to the console. Upon completion (or early exit due to an error), it provides a summary report:
 
+```
 --- Summary Report ---
 Input Filename         : source_data.csv
 Target Field for Duplicates: Accession Number
 Total Records Processed: 1500
 Impacted Records (Duplicates Found): 30
+```
 
 *(The exact numbers will vary based on your input data.)*
 
