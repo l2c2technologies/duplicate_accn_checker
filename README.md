@@ -28,12 +28,9 @@ python accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> -f "<
 
 ### Arguments
 
-* `-i INPUT_FILE`, `--input-file INPUT_FILE`
-    * **Required**. Path to the input CSV file that you want to analyze.
-* `-o OUTPUT_FILE`, `--output-file OUTPUT_FILE`
-    * **Required**. Path where the CSV file containing the duplicate records will be saved.
-* `-f FIELD`, `--field FIELD`
-    * **Required**. The name of the column header in the input CSV file that should be checked for duplicate values. If the field name contains spaces, enclose it in quotes.
+* -i or --input-file INPUT_FILE
+* -o or --output-file OUTPUT_FILE
+* -f or --field FIELD
 
 ## Output
 
@@ -58,6 +55,6 @@ Other console messages you might see include:
 
 A new CSV file (e.g., `duplicate_entries.csv` if specified via the `-o` argument) will be created. This file will contain:
 
-* The header row from the input file.
-* All records (entire rows) from the input file where the value in the specified `FIELD` was found to be a duplicate. This includes *all occurrences* of the duplicated values.
-* If no duplicates are found, and an output file is still specified, this file will typically be created with only the header row.
+- The header row from the input file.
+- All records (entire rows) from the input file where the value in the specified `FIELD` was found to be a duplicate. This includes *all occurrences* of the duplicated values.
+- If no duplicates are found, and an output file is still specified, this file will typically be created with only the header row.
