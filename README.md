@@ -36,7 +36,8 @@ python accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> -f "<
 
 ### 1. Console Output
 
-The script prints status messages, warnings, and errors to the console. Upon completion (or early exit due to an error), it provides a summary report:
+The script prints status messages, warnings, and errors to the console. Upon completion (or early
+exit due to an error), it provides a summary report:
 
 --- Summary Report ---
 Input Filename         : source_data.csv
@@ -53,8 +54,11 @@ Other console messages you might see include:
 
 ### 2. Output CSV File
 
-A new CSV file (e.g., `duplicate_entries.csv` if specified via the `-o` argument) will be created. This file will contain:
+A new CSV file (e.g., `duplicate_entries.csv` if specified via the `-o` argument) will be created.
+This file will contain:
 
 - The header row from the input file.
-- All records (entire rows) from the input file where the value in the specified `FIELD` was found to be a duplicate. This includes *all occurrences* of the duplicated values.
-- If no duplicates are found, and an output file is still specified, this file will typically be created with only the header row.
+- All records (entire rows) from the input file where the value in the specified `FIELD` was found
+  to be a duplicate. This includes *all occurrences* of the duplicated values.
+- If no duplicates are found, and an output file is still specified, this file will typically be
+  created with only the header row.
