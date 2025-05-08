@@ -24,7 +24,8 @@ To use the script, run it from your terminal, providing the necessary command-li
 ### Command Syntax
 
 ```bash
-python accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> -f "<Field Name>"
+$ python3 ./accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> -f "<Field Name>"
+```
 
 ### Arguments
 
