@@ -29,9 +29,11 @@ $ python3 ./accession_checker.py -i <input_file.csv> -o <output_duplicates.csv> 
 
 ### Arguments
 
-* -i or --input-file INPUT_FILE
-* -o or --output-file OUTPUT_FILE
-* -f or --field FIELD
+```
+-i or --input-file INPUT_FILE
+-o or --output-file OUTPUT_FILE
+-f or --field FIELD
+```
 
 ## Output
 
